@@ -1,0 +1,12 @@
+.login
+{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between
+   
+}
+.image
+{
+    height: 100%;
+    width:100%;
+}

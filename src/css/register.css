@@ -1,0 +1,39 @@
+.reg{
+    background-image: url('../components/maxresdefault.jpg');
+    background-size: cover;
+    min-height: 100vh;
+    display: flex;
+    flex-direction:column;
+    justify-content: center;
+    align-items:flex-end;
+}
+.login-box
+{
+    border:solid 3px green;
+    border-radius: 15px;
+    padding: 10px;
+    margin-right: 20px;
+}
+.input-area
+{
+    display: flex;
+    flex-direction: row;
+    justify-content:space-between;
+    font-size: 30px;
+    margin:30px;
+}
+label{
+    margin: 10px;
+    color: red;
+}
+
+.btn-container
+{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+}
+input{
+    font-size: 100%;
+    border-radius: 10px;
+}
