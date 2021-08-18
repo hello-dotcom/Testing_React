@@ -1,5 +1,6 @@
 import React, { Component } from 'react'
 import '../css/register.css'
+import url from '../config';
 
  class register extends Component {
      constructor(props) {
@@ -30,7 +31,7 @@ import '../css/register.css'
                 alert('password is not valid');
             }
             else{
-                fetch('http://localhost:5000/register',{
+                fetch(`${url}/register`,{
                     method:"POST",
                     headers:{'Content-Type':'application/json'},
                     body:JSON.stringify({

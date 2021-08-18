@@ -1,6 +1,7 @@
 import React, { Component } from 'react'
 import Cookies from 'universal-cookie'
 import '../css/register.css'
+import url from '../config';
  class login extends Component {
      constructor(props) {
          super(props)
@@ -19,7 +20,7 @@ import '../css/register.css'
      Login=()=>{
          if(this.state.id.trim()!="" && this.state.password.trim()!="")
          {
-             fetch('http://localhost:5000/login',{
+             fetch(`${url}/login`,{
                  method:"POST",
                  headers:{'Content-Type':'application/json'},
                  body:JSON.stringify({
