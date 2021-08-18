@@ -35,7 +35,7 @@ import url from '../config';
                     this.state.cookies.set('email',this.state.id);
                     this.state.cookies.set('token','Bearer '+res.token);
                     alert('login successful');
-                     this.props.history.push('/');
+                     this.props.history.push('/home');
                  }
                  else if(res.status==400 || res.status==401)
                  {
