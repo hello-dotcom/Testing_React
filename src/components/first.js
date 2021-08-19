@@ -16,7 +16,7 @@ class first extends Component {
         return (
             <div>
                 <div className="login bg-secondary">
-                    <h1>Heading</h1>
+                    <h1>Simplilearn</h1>
                     <div>
                         <button className="btn btn-primary m-2" onClick={()=>{this.props.history.push('login')}}> Login </button>
                         <button className="btn btn-primary m-2" onClick={()=>{this.props.history.push('register')}}> Register </button>
